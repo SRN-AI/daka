@@ -6,9 +6,9 @@
     "city": "xx市",
     "district": "xx市",
     "province": "xx省",
-    "township": "",
-    "street": "",
-    "myArea": "140882",
+    "township": "",//城镇
+    "street": "",//路
+    "myArea": "",//地区码 身份证前六位
     "token": "680893a0-020e-461f-952c-c8e408fa599b",
     "session": "a99bd3b4a4614e2696725fdf3949ec8e"
 }
