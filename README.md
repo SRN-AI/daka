@@ -25,4 +25,6 @@ pushplus网址：http://www.pushplus.plus/
 更新token session<br/>
 `python3 update.py app.json 你的token 你的session`<br/>
 
-### upd.sh和sigh.sh分别为更新token、session和执行打卡程序的shell脚本
+### upd.sh和sigh.sh分别为更新token、session和执行打卡程序的shell脚本，可以通过crontab设置定时任务来完成打卡<br/>
+`./upd.sh 你的token session`<br/>
+
