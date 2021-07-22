@@ -61,7 +61,7 @@ class Inspect(Req):
         print(res)
 class Remind:
     data = {
-        "token_p":'05203a15adb24362a0feec197a52c777',
+        "token_p":'去pushplus官网获取',
         "title": '我在校园自助签到',
         "content": ''
     }
