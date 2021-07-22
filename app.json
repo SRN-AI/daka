@@ -9,6 +9,6 @@
     "township": "",//城镇
     "street": "",//路
     "myArea": "",//地区码 身份证前六位
-    "token": "680893a0-020e-461f-952c-c8e408fa599b",
-    "session": "a99bd3b4a4614e2696725fdf3949ec8e"
+    "token": "你的token（可有可无 最好填上）",
+    "session": "你的session（关键）"
 }
