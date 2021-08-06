@@ -19,7 +19,8 @@ class Req:
         "Connection": "keep-alive",
         "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 MicroMessenger/7.0.9.501 NetType/WIFI MiniProgramEnv/Windows WindowsWechat",
         "Referer": 'https://servicewechat.com/wxce6d08f781975d91/173/page-frame.html',
-        "token": "680893a0-020e-461f-952c-c8e408fa599b",  # token
+        "token": "",  # token
+      ###修改点1
         "JWSESSION": "a99bd3b4a4614e2696725fdf3949ec8e",#session,
         # "Content-Length": "744"
     }
@@ -40,11 +41,12 @@ class Req:
 
 class Inspect(Req):
     saveUrl = "https://student.wozaixiaoyuan.com/health/save.json"
-    data = {
+    data =
+        ###修改2
         "answers": '["0"]',
         "latitude": "经度",
         "longitude": "纬度",
-       "country": "",
+        "country": "",
         "city": "市",
         "district": "",
         "province": "省",
@@ -60,7 +62,9 @@ class Inspect(Req):
         print(res)
 class Remind:
     data = {
-        "token_p":'05203a15adb24362a0feec197a52c777',
+        
+        #修改点3
+        "token_p":'',
         "title": '我在校园自助签到',
         "content": ''
     }
