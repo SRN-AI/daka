@@ -41,7 +41,6 @@ class Req:
 class Inspect(Req):
     saveUrl = "https://student.wozaixiaoyuan.com/health/save.json"
     data = {
-        "token_p":"",
         "answers": '["0"]',
         "latitude": "经度",
         "longitude": "纬度",
